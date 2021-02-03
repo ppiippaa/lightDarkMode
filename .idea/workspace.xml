@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b558bb4-6135-41f1-a510-56bd37e8343e" name="Default Changelist" comment="" />
+    <list default="true" id="2b558bb4-6135-41f1-a510-56bd37e8343e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +43,9 @@
       <updated>1612107153389</updated>
       <workItem from="1612107154572" duration="874000" />
       <workItem from="1612186257393" duration="6778000" />
-      <workItem from="1612365943905" duration="1563000" />
+      <workItem from="1612365943905" duration="4886000" />
+      <workItem from="1612370867262" duration="49000" />
+      <workItem from="1612370917969" duration="1629000" />
     </task>
     <servers />
   </component>
@@ -56,5 +62,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

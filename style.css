@@ -24,6 +24,7 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 body {
@@ -43,13 +44,13 @@ section {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 10rem;
   margin-bottom: 0;
   font-family: 'Kaushan Script', sans-serif;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: normal;
   color: var(--on-background-alt);
 }
@@ -59,15 +60,15 @@ nav {
   z-index: 10;
   position: fixed;
   font-family: 'Oswald', sans-serif;
-  font-size: 24px;
-  letter-spacing: 3px;
-  padding: 25px;
+  font-size: 2.4rem;
+  letter-spacing: .3rem;
+  padding: 2.5rem;
   width: 100vw;
   background: rgb(255 255 255 / 50%);
 }
 
 a {
-  margin-right: 25px;
+  margin-right: 2.5rem;
   color: var(--primary-color);
   text-decoration: none;
   border-bottom: 3px solid transparent;
@@ -93,32 +94,36 @@ a:focus {
 .image-container {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
-  padding: 10px 20px;
-  margin-right: 25px;
+  padding: 1rem 2rem;
+  margin-right: 2.5rem;
   width: auto;
   background: var(--background);
   box-shadow: var(--box-shadow);
 }
 
 img {
-  height: 300px;
-  width: 300px;
+  height: 30rem;
+  width: 30rem;
 }
 
 /* Projects Section */
 .buttons {
-  margin-top: 15px;
-  margin-bottom: 50px;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+p {
+  font-size: 1.6rem;
 }
 
 button {
-  min-width: 100px;
-  height: 40px;
+  min-width: 10rem;
+  height: 4rem;
   cursor: pointer;
   border-radius: 10px;
-  margin-right: 10px;
+  margin-right: 1rem;
   border: 2px solid var(--primary-color);
-  font-size: 15px;
+  font-size: 1.5rem;
   outline: none;
 }
 
@@ -163,19 +168,19 @@ button:hover:not(.outline) {
   background: rgb(0 0 0 / 50%);
   color: var(--on-primary);
   border-radius: 10px;
-  padding: 30px;
-  margin-top: 30px;
+  padding: 3rem;
+  margin-top: 3rem;
 }
 
 p {
   margin: 0;
-  line-height: 25px;
+  line-height: 2.5rem;
 }
 
 /* Contact Section */
 .fab {
-  font-size: 100px;
-  margin-right: 50px;
+  font-size: 10rem;
+  margin-right: 5rem;
   cursor: pointer;
   color: var(--primary-color);
 }
@@ -196,7 +201,7 @@ p {
 
 .theme-switch-wrapper span {
   margin-right: 10px;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .toggle-text {
@@ -256,6 +261,31 @@ input:checked + .slider::before {
 }
 
 .fas {
-  font-size: 30px;
-  margin-right: 5px;
+  font-size: 3rem;
+  margin-right: .5rem;
 }
+
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 8rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .image-container:not(:last-child) {
+    margin-bottom : 20px;
+  }
+
+  .social-icons {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5rem 5rem;
+
+  }
+
+}
+
